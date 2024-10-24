@@ -18,7 +18,7 @@ static const _accessTokenKey='access-token';
 static  bool isLoggedIn(){
     return accessTokenKey!=null;
   }
- static Future<void>clearUserDate()async{
+ static Future<void>clearUserData()async{
     SharedPreferences sharedPreferences=await SharedPreferences.getInstance()
 ;
 await sharedPreferences.clear();

@@ -1,3 +1,5 @@
+// ignore_for_file: override_on_non_overriding_member
+
 import 'package:flutter/material.dart';
 import 'package:todoapp/common/wigets/elevatedbutton/custom_elevatedbutton.dart';
 import 'package:todoapp/features/authentication/controller/auth_controller.dart';

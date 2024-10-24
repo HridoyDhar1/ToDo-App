@@ -9,7 +9,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      toolbarHeight: 80,
+      toolbarHeight: 100,
+      backgroundColor: Colors.teal,
       automaticallyImplyLeading: false,
       title: Row(
         children: [
@@ -21,7 +22,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
               const SizedBox(height: 5),
               Text(
                 "$onGoingTaskCount On Going Tasks", // Display the On Going task count
-                style: const TextStyle(fontSize: 15, color: Colors.teal),
+                style: const TextStyle(fontSize: 15, color: Colors.white),
               ),
             ],
           ),
